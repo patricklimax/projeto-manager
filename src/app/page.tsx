@@ -3,7 +3,7 @@ import { ListProjects, } from "@/components/project-list";
 
 export default function Home() {
   return (
-    <main className="max-w-6xl mx-auto min-h-screen">
+    <main className="max-w-6xl mx-auto min-h-screen p-4">
       <ListProjects/>
     </main>
   );
